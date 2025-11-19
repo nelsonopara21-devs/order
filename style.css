@@ -1,0 +1,58 @@
+        .tc {
+            text-align: center;
+        }
+        body {
+            background: url(./bg.jpeg);
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: grid;
+            gap: 20px;
+            max-width: 600px;
+            margin: 30px auto;
+            background-color: #00000050;
+            backdrop-filter: blur(5px);
+            padding: 30px;
+            border-radius: 10px;
+        }
+        div.item {
+            display: grid;
+            gap: 5px;
+        }
+        label {
+            color: #FFFFFF;
+        }
+        input {
+            height: 44px;
+            border-radius: 6px;
+            background: transparent;
+            border: 1px solid #FFFFFF;
+            padding: 0px 20px;
+            outline: none;
+            color: #FFFFFF;
+        }
+        input::placeholder {
+            color: #FFFFFF;
+        }
+
+        /* Style for the clickable menu link */
+        .menu-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background-color: #FFFFFF;
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .menu-link:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
